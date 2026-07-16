@@ -548,7 +548,7 @@ function Library:ApplyTextStroke(Inst)
 end
 
 Library.GlowElements = {}
-Library.GlowAmount = 1
+Library.GlowAmount = 0
 
 function Library:SetGlowAmount(amount)
     Library.GlowAmount = amount
